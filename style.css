@@ -35,8 +35,22 @@
 }
 
 .entete{
-    background-color: hotpink;
+    background-color: rgb(105, 175, 255);
+    padding: 10px;
 }
+
+.titresite{
+
+    color:darkblue;
+    font-size: 1.5rem;
+}
+
+.slogan{
+    color:darkblue;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
 .colonnes {
     background-color: deepskyblue;
 }
