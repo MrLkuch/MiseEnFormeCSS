@@ -61,7 +61,10 @@
     background-color: lightgreen;
 }
 .pieddepage{
-    background-color: lightgray;
+    background-color: rgb(105, 175, 255);
+    color: rgb(15, 75, 72); 
+    text-align: center;
+    
 }
 
 
