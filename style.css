@@ -27,7 +27,7 @@
  ************************************************************/
  body{
 	/* Pour avoir le choix des couleurs https://htmlcolorcodes.com/fr/noms-de-couleur/ */
-    background-color: rgb(0, 110, 255);
+    background-color: rgb(212, 231, 255);
     font-size: 0.8rem;
     font-family: Verdana;
     margin: 0;
@@ -35,31 +35,31 @@
 }
 
 .entete{
-    background-color: rgb(105, 175, 255);
+    background-color: rgb(112, 140, 172);
     padding: 10px;
 }
 
 .titresite{
 
-    color:darkblue;
+    color:rgb(228, 228, 255);
     font-size: 1.5rem;
 }
 
 .slogan{
-    color:darkblue;
+    color:rgb(228, 228, 255);
     font-size: 1.5rem;
     font-style: italic;
 }
 
 .colonnes {
-    background-color: deepskyblue;
+    background-color: rgb(112, 140, 172);
 }
 .colonne_menu{
-    background-color: gold;
+    background-color: rgb(112, 140, 172);
 }
 .colonne_contenu {
     background-color: rgb(255, 255, 255);
-    margin:10px;
+    padding:10px;
 }
 .pieddepage{
     background-color: rgb(105, 175, 255);
@@ -69,10 +69,10 @@
 }
 
 h1{
-    background-color: aquamarine;
+    background-color: rgb(232, 255, 247);
     margin: 10px;
     margin-bottom: 20px;
-    border-bottom: 5px solid rgb(0, 92, 128) ;
+    border-bottom: 5px solid rgb(27, 81, 102) ;
 
 }
 
@@ -84,18 +84,18 @@ h2{
 }
 
 strong{
-    color:rgb(53, 105, 105);
+    color:rgb(25, 85, 85);
     font-weight: 400;
 }
 
 em{
-    color: rgb(127, 146, 255);
+    color: rgb(197, 97, 255);
 }
 
 .introduction{
     font-style: italic;
     border: solid;
-    margin: 10px;
+    padding: 10px;
     border-radius: 10px;
 
 }
@@ -107,4 +107,29 @@ a{
 a:hover{
     color: rgb(0, 153, 255);
     text-decoration: none;
+}
+
+.colonne_menu ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.colonne_menu li{
+    list-style-type: none;
+    background-color: gold;
+    margin: 5px;
+    text-align: center;
+}
+
+.colonne_menu li:hover{
+    background-color: red;
+
+}
+
+.colonne_menu a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 5px;
 }
